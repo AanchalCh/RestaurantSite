@@ -125,12 +125,12 @@ body {
 }
 
 #menu-tile{
-  background: url(noodles.jpg) no-repeat;
+  background: url(images/noodles.jpg) no-repeat;
   background-position: center;
 }
 
 #specials-tile{
-  background: url(special.jpg) no-repeat;
+  background: url(images/special.jpg) no-repeat;
   background-position: center;
 }
 
