@@ -220,6 +220,31 @@ a[ui-sref="admin.auth"] {
 
 /*END OF MENU CATEGORIES PAGE*/
 
+/* START OF SINGLES PAGE */
+
+.menu-item-tile{
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr{
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price{
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-title .menu-item-price span{
+  font-size: .6em;
+}
+
+.menu-item-photo{
+  
+}
+
   /*******LARGE DEVICES ONLY******/
   @media (max-width: 1200px){
     
@@ -298,6 +323,8 @@ a[ui-sref="admin.auth"] {
    margin: 0 auto 15px;
    width: 360px;
  }
+
+
 
  /* Footer */
  .panel-footer section {
