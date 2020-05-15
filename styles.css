@@ -43,7 +43,7 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: 1;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -239,16 +239,47 @@ a[ui-sref="admin.auth"] {
 
 .menu-item-title .menu-item-price span{
   font-size: .6em;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 .menu-item-photo{
-  
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+
+.menu-item-description{
+  padding-right: 30px;
+}
+
+.menu-item-title{
+  margin: 0 0 10px;
+}
+
+.menu-item-details{
+  font-size: 0.9em;
+  font-style: italic;
 }
 
   /*******LARGE DEVICES ONLY******/
   @media (max-width: 1200px){
     
-  }
+  }   
 
   /*******MEDIUM DEVICES ONLY******/
   @media (min-width:992px) and (max-width:1199px){
@@ -324,7 +355,14 @@ a[ui-sref="admin.auth"] {
    width: 360px;
  }
 
+.menu-item-photo{
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.menu-item-tile .menu-item-price{
+  text-align: center;
+}
 
  /* Footer */
  .panel-footer section {
@@ -341,6 +379,18 @@ a[ui-sref="admin.auth"] {
 }
  
 @media (max-width:479px){
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 1.5em !important;
+    line-height: 1;
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .4em;
+    margin-top: 3px;
+    margin-bottom: 0;
+  }
+  #collapsable-nav a{
+    font-size: 1.0em;
+  }
   #menu-tile , #specials-tile{
     margin: 0 auto 15px;
     width: 280px;
